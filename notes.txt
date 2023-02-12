@@ -1,0 +1,4 @@
+# How to Run Celery Locally
+
+celery -A config worker -l info --logfile=celery.log --detach
+celery -A config beat -l info --logfile=celery.beat.log --detach
